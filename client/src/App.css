@@ -1,0 +1,20 @@
+* {
+    font-family: "Prompt", sans-serif;
+  }
+body {
+    background: #f5f7fb;
+    font-family: system-ui, sans-serif;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 16px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #3b6ef5;
+    margin-bottom: 24px;
+  }
+  
