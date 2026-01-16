@@ -1,0 +1,75 @@
+.trip-card {
+    display: flex;
+    gap: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+  }
+  
+  /* รูปใหญ่ */
+  .trip-main-image {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* เนื้อหา */
+  .trip-content {
+    flex: 1;
+  }
+  
+  .trip-title a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .trip-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .trip-description {
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  /* อ่านต่อ */
+  .trip-read-more {
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .trip-read-more:hover {
+    text-decoration: underline;
+  }
+  
+  /* tags */
+  .trip-tags {
+    margin-top: 12px;
+  }
+  
+  /* รูปเล็ก */
+  .trip-thumbnails {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  
+  .trip-thumbnail {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* copy button */
+  .trip-copy {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+  
