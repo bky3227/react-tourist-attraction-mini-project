@@ -1,7 +1,8 @@
+import HomePage from "./page/HomePage";
 import "./App.css";
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return <HomePage />;
 }
 
 export default App;
